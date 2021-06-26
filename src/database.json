@@ -1,0 +1,44 @@
+{
+  "bsa-2020": [
+    {
+      "id": "1",
+      "firstName": "Sasha",
+      "lastName": "Blood"
+    },
+    {
+      "id": "2",
+      "firstName": "Olex",
+      "lastName": "Knex"
+    },
+
+    {
+      "id": "3",
+      "firstName": "Masha",
+      "lastName": "X"
+    }
+  ],
+  "bsa-2021": [
+    {
+      "id": "1",
+      "firstName": "Yna",
+      "lastName": "Finx"
+    },
+    {
+      "id": "2",
+      "firstName": "Lesha",
+      "lastName": "Tuz"
+    },
+    {
+      "id": "3",
+      "firstName": "Vladek",
+      "lastName": "Forward"
+    }
+  ],
+  "winter-academy-2020": [
+    {
+      "id": "1",
+      "firstName": "Sasha",
+      "lastName": "Greshka"
+    }
+  ]
+}

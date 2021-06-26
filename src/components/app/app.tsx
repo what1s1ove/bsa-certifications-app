@@ -1,23 +1,15 @@
-import logo from 'assets/img/logo.svg';
-import './styles.css';
+import { AppRoute } from 'common/enums/enums';
+import { BrowserRouter, Switch, Route } from 'components/common/common';
+import Certificate from 'components/certificate/certificate';
+import NotFound from 'components/not-found/not-found';
 
-const App = ()=>  (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => (
+  <BrowserRouter>
+    <Switch>
+      <Certificate />
+      <Route path={AppRoute.ANY} component={NotFound} />
+    </Switch>
+  </BrowserRouter>
+);
 
 export default App;
